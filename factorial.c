@@ -5,8 +5,13 @@ int main() {
     long long int resultat = 1;
 
     // Saisie de l'utilisateur
+
     scanf("%d", &n);
 
+    // Vérification de la validité
+    if (n < 0) {
+        printf("Le factoriel n'est pas défini pour les nombres négatifs.\n");
+    } else {
         for (int i = 1; i <= n; i++) {
             resultat *= i;
         }
