@@ -4,7 +4,6 @@ int main() {
     int nombre;
 
     // Demande de saisir un entier
-    printf("Entrez un entier : ");
     scanf("%d", &nombre);
 
     // Vérification de la parité

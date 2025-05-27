@@ -5,7 +5,6 @@ int main() {
     long long int resultat = 1;
 
     // Saisie de l'utilisateur
-    printf("Entrez un entier : ");
     scanf("%d", &n);
 
     // Vérification de la validité
