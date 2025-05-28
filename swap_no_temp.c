@@ -12,7 +12,7 @@ int main() {
     a = a - b;
 
     // Résultat
-    printf("Après échange: a = %d, b = %d\n", a, b);
+    printf("Après échange : a = %d, b = %d\n", a, b);
 
     return 0;
 }
